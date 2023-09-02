@@ -1,0 +1,245 @@
+@font-face {
+    font-family: mySignerica;
+    src: url(../fonts/signerica/Signerica_Medium.ttf);
+}
+
+@font-face {
+    font-family: myRileyFrost;
+    src: url("../fonts/riley_frost/Riley Frost.ttf");
+}
+
+@font-face {
+    font-family: fontSquare;
+    src: url("../fonts/square_peg/SquarePeg.ttf");
+}
+
+@font-face {
+    font-family: fontCinzel;
+    src: url("../fonts/Cinzel/static/Cinzel-regular.ttf");
+}
+
+@font-face {
+    font-family: fontSatisfy;
+    src: url("../fonts/Satisfy/Satisfy.ttf");
+}
+
+@font-face {
+    font-family: fontMontserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: fontGistesy;
+    src: url("../fonts/gistesy/Gistesy.ttf");
+}
+
+@font-face {
+    font-family: fontNanum;
+    src: url("../fonts/nanummyeongjo/NanumMyeongjo-Regular.ttf");
+}
+
+.img-background {
+    background-image: url("../img/fondo.png");
+    background-size:cover;
+    background-attachment: fixed;
+}
+
+.encabezado {
+    font-family: fontCinzel;
+    text-align: center;
+    
+    margin-top: 40%;
+
+}
+
+.contador{
+    background-color: #AB4F8590;
+    font-family: fontCinzel;
+    padding: 3%;
+    border-radius: 55px;
+    color: white;
+    text-align: center;
+}
+
+
+/*
+.h-img-parent {
+    background-image: url("../img/Portada.jpg");
+    background-size:cover;
+    background-position: center;
+    height: 1000px;
+    position: relative;
+}
+
+.h-img-parent:before {
+    content: "";
+    position: absolute;
+    left: 0; right: 0;
+    top: 0; bottom: 0;
+    background: rgba(0,0,0,.5);
+}
+*/
+/*
+.h-img-parent .text-shadow, .h-img-parent p {
+  
+    position: relative;
+}
+
+.font-signerica {
+    font-family: mySignerica;
+}
+
+.font-riley {
+    font-family: myRileyFrost;
+}
+
+.font-square {
+    font-family: fontSquare;
+}
+
+.font-cinzel {
+    font-family: fontCinzel;
+}
+
+.font-satisfy {
+    font-family: fontSatisfy;
+
+}
+.font-monserrat {
+    font-family: fontMontserrat;
+
+}
+
+.font-gistesy {
+    font-family: fontGistesy;
+
+}
+
+.back-color-green {
+    background-color: #a9924c;
+    background-color: #BDA354;
+    text-align: center;
+}
+
+.save {
+    width: 50%;
+    height: 35%;
+}
+
+.intro {
+    font-family: myRileyFrost;
+    text-align: center;
+    color: #707070;
+
+}
+
+.fecha{
+    letter-spacing: 10px;
+}
+
+.padres{
+    text-align: center;
+    color: #707070;
+    font-family: fontMontserrat;
+}
+
+.espacio1{
+    background-image: url("../img/Static.jpg");
+    background-size:cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 400px;
+    position: relative;
+}
+
+.itinerario{
+    text-align: center;
+}
+.btn-maps{
+    background-color: #a9924c;
+    color:white;
+    font-family: fontMontserrat;
+
+}
+
+.btn-maps:hover{
+    background-color: white;
+    color:#a9924c;
+    border-color: #a9924c;
+}
+
+.itinerario{
+    text-align: center;
+}
+
+.regalo-title{
+    font-family: fontCinzel;
+    text-align: center;
+    letter-spacing: 9px;
+}
+
+.regalo{ 
+    text-align: center;
+    font-family: fontMontserrat;
+    letter-spacing: 1px;
+    color: #707070;
+}
+.conf-title{
+    font-family: fontCinzel;
+    text-align: center;
+    letter-spacing: 5px;
+    background-color: rgba(165, 126, 95, 0.46);
+    padding: 10px;
+}
+
+.divider{
+    width: 80%;
+    text-align: center;
+    margin-left: 10%;
+
+}
+
+.tbl-conf{
+    margin-left: 35%;
+    width: 30%;
+    text-align: left;
+}
+
+.lugares{
+    display: block;
+}
+
+.fondo_lugares{
+    background-image: url("../img/2.png");
+    background-size:cover;
+    background-position: center;
+ 
+}
+
+.inicio_padres{
+    letter-spacing: 0.7px;
+    font-family: fontCinzel;
+}
+
+.enlace{
+    color: white;
+    font-family: fontCinzel;
+}*/
+/*
+.h-text {
+    color: white;
+    position: absolute;
+}
+
+.h-center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.h-center-subtitle {
+    top: 70%;
+    left: 45%;
+    transform: translate(-30%, -55%);
+}
+*/
