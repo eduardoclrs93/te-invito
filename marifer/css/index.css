@@ -37,11 +37,25 @@
     font-family: fontNanum;
     src: url("../fonts/nanummyeongjo/NanumMyeongjo-Regular.ttf");
 }
-
-.img-background {
+/* Mobile first */
+body{
     background-image: url("../img/fondo.png");
-    background-size:cover;
     background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+/* Then tablets, laptops and desktops (768px and up) */
+@media screen and (min-width:768px) {
+body{
+    background-image: url("../img/fondo.png");
+    background-size: cover;
+    }
+.img-background {
+   /* background-image: url("../img/fondo.png");*/
+    background-size:cover;
+    background-position: 0;
+   /* background-attachment: fixed;*/
+   z-index: -10.
 }
 
 .encabezado {
