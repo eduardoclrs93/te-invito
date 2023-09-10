@@ -41,7 +41,7 @@
 .img-background {
     background-image: url("../img/fondo.png");
     background-size:cover;
-    background-attachment: initial;
+    background-attachment: fixed;
 }
 
 .encabezado {
