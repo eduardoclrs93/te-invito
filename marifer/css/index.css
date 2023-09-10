@@ -60,7 +60,18 @@
     color: white;
     text-align: center;
 }
+.btn-maps{
+    background-color: #a9924c;
+    color:white;
+    font-family: fontMontserrat;
 
+}
+
+.btn-maps:hover{
+    background-color: white;
+    color:#a9924c;
+    border-color: #a9924c;
+}
 
 /*
 .h-img-parent {
