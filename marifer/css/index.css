@@ -37,31 +37,13 @@
     font-family: fontNanum;
     src: url("../fonts/nanummyeongjo/NanumMyeongjo-Regular.ttf");
 }
-/* Mobile first */
-body{
-    z-index: 0;
-    background-image: url("../img/fondo.png");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-}
 
-/* Then tablets, laptops and desktops (768px and up) */
-@media screen and (min-width:768px) {
-body{
-    background-image: url("../img/fondo.png");
-    background-size: cover;
-    z-index: 0;
-    }
-
-    .cuerpo{
-        z-index: 1;
-    }
 .img-background {
-   /* background-image: url("../img/fondo.png");*/
+    background-image: url("../img/fondo.png");
     background-size:cover;
-    background-position: 0;
-   /* background-attachment: fixed;*/
-   z-index: -10.
+   
+    background-attachment: fixed;
+  
 }
 
 .encabezado {
@@ -80,10 +62,20 @@ body{
     color: white;
     text-align: center;
 }
+
+.contador2{
+    background-color: #AB4F8590;
+    font-family: fontCinzel;
+    padding: 3%;
+   
+    color: white;
+    text-align: center;
+}
 .btn-maps{
     background-color: #a9924c;
     color:white;
     font-family: fontMontserrat;
+    border-color: white;
 
 }
 
