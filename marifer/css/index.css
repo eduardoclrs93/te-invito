@@ -39,6 +39,7 @@
 }
 /* Mobile first */
 body{
+    z-index: 0;
     background-image: url("../img/fondo.png");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -49,6 +50,11 @@ body{
 body{
     background-image: url("../img/fondo.png");
     background-size: cover;
+    z-index: 0;
+    }
+
+    .cuerpo{
+        z-index: 1;
     }
 .img-background {
    /* background-image: url("../img/fondo.png");*/
