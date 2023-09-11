@@ -64,12 +64,13 @@
 }
 
 .contador2{
-    background-color: #AB4F8590;
-    font-family: fontCinzel;
+     background-color: #AB4F8590;
+    font-family: fontSatisfy;
     padding: 3%;
-   
+    border-radius: 55px;
     color: white;
     text-align: center;
+    letter-spacing: 5px;
 }
 .btn-maps{
     background-color: #a9924c;
