@@ -37,6 +37,10 @@
     font-family: fontNanum;
     src: url("../fonts/nanummyeongjo/NanumMyeongjo-Regular.ttf");
 }
+ body {
+  overflow-x: hidden;
+  overflow-x: clip !important;
+}
 
 .h-img-parent {
     /*background-image: url("../img/Portada.jpg");*/
