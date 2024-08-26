@@ -40,18 +40,18 @@
 
 .h-img-parent {
     /*background-image: url("../img/Portada.jpg");*/
-   /* background-size:cover;
+    background-size:cover;
     background-position: center;
     height: 1000px;
-    position: relative;*/
+    position: relative;
 
 
-  background-position: center;
+  /*background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   width: 105%;
-  height: 1000px;
+  height: 1000px;*/
 }
 
 .h-img-parent:before {
