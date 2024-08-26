@@ -1,0 +1,106 @@
+@font-face {
+    font-family: mySignerica;
+    src: url(../fonts/signerica/Signerica_Medium.ttf);
+}
+
+@font-face {
+    font-family: myRileyFrost;
+    src: url("../fonts/riley_frost/Riley Frost.ttf");
+}
+
+@font-face {
+    font-family: fontSquare;
+    src: url("../fonts/square_peg/SquarePeg.ttf");
+}
+
+@font-face {
+    font-family: fontCinzel;
+    src: url("../fonts/Cinzel/static/Cinzel-Regular.ttf");
+}
+
+@font-face {
+    font-family: fontSatisfy;
+    src: url("../fonts/Satisfy/Satisfy.ttf");
+}
+
+@font-face {
+    font-family: fontMontserrat;
+    src: url("../fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+    font-family: fontGistesy;
+    src: url("../fonts/gistesy/Gistesy.ttf");
+}
+
+@font-face {
+    font-family: fontNanum;
+    src: url("../fonts/nanummyeongjo/NanumMyeongjo-Regular.ttf");
+}
+
+.bg {    
+  background-image: url("../img/fondo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  margin-left: -1.2%;
+}
+
+.content {
+  position: absolute;
+  left: 50%; 
+  margin-top: 5rem;
+  transform: translateX(-50%);
+  width: 80%;
+}
+
+.img-background {
+    background-image: url("../img/fondo.png");
+    background-size:cover;
+   
+    background-attachment: fixed;
+  
+}
+
+.encabezado {
+    font-family: fontCinzel;
+    text-align: center;
+    
+    margin-top: 40%;
+
+}
+
+.contador{
+    background-color: #AB4F8590;
+    font-family: fontCinzel;
+    padding: 3%;
+    border-radius: 55px;
+    color: white;
+    text-align: center;
+}
+
+.contador2{
+     background-color: #AB4F8590;
+    font-family: fontSatisfy;
+    padding: 3%;
+    border-radius: 55px;
+    color: white;
+    text-align: center;
+    letter-spacing: 5px;
+}
+.btn-maps{
+    background-color: #a9924c;
+    color:white;
+    font-family: fontMontserrat;
+    border-color: white;
+
+}
+
+.btn-maps:hover{
+    background-color: white;
+    color:#a9924c;
+    border-color: #a9924c;
+}
