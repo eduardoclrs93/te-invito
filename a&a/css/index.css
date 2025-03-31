@@ -42,13 +42,21 @@
   overflow-x: clip !important;
 }
 
+body {
+    transform: scale(1);
+    transform-origin: center top;
+    transition: transform 0.5s ease-in-out;
+    width: 100vw;
+    overflow-x: hidden; /* Evita scroll horizontal */
+}
+
 .h-img-parent {
     background-image: url("../img/aa-portada.jpg");
     background-size:cover;
     background-position: center;
     height: 1600px;
     position: relative;
-    
+
 
   /*background-position: center;
   background-repeat: no-repeat;
