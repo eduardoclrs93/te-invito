@@ -266,6 +266,12 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 
         <script>
+
+          window.onload = function () {
+            document.body.style.transform = "scale(1.05)";
+            document.body.style.transformOrigin = "center top";
+            document.body.style.transition = "transform 0.5s ease-in-out";
+        };
             // Set the date we're counting down to
             var countDownDate = new Date("May 03, 2025 16:00:00").getTime();
 
