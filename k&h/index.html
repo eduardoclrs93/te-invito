@@ -110,7 +110,7 @@
                 <h2 style="font-size: 2.3em;">Santiago Miranda Valdez </h2>
                 <h2 style="font-size: 2.3em;">Angélica Guzman Granillo</h2><br>
                 <h2 style="font-size: 2.3em;">Angelina Guadalupe Gutiérrez Tresierras</h2>
-                <h2 style="font-size: 2.3em;">AMario Contreras Granillo</h2>
+                <h2 style="font-size: 2.3em;">Mario Contreras Granillo</h2>
                 <br><br>
                 
               </div>
@@ -157,8 +157,8 @@
                   <h3 class="padres" style="font-size: 2.8em;">El Porton de Hierro</h3>
                   <h4 class="padres" style="font-size: 2.8em;">9:00 PM</h4>
                   <a href="https://maps.app.goo.gl/ntzYrNpJSXJQiN8T6" target="_blank"><button type="button" class="btn btn-maps btn-lg" style="font-size: 2em;">Ver Ubicación</button></a>
-                  <br>
-                  
+                  <br><br>
+                  <h4 class="padres" style="font-size: 2.5em;"><b>RESPETUOSAMENTE NO NIÑOS</b></h4>
                 </div>
                 <br><br>
             </div>
@@ -218,7 +218,7 @@
              <div class="col" style="text-align: center;">
             <br>
             <img src="img/sobre_verde.png" style="width: 12.5%; height: 35%;  "><br>  <br>  <br>  
-            <h3 class="regalo" style="font-size: 2.5em;">Para nosotros su presencia es lo mas importante, <br> pero si tu deseo es hacernos algún presente, <br> te compartimos nuestras sugerencias. </h3>
+            <h3 class="regalo" style="font-size: 2.5em;">Para nosotros su presencia es lo mas importante, <br> pero si tu deseo es hacernos algún presente, <br> puedes considerar nuestras sugerencias <br> o la opción en efectivo. </h3>
             <br>
             <img src="img/bbva_verde.png" style="width: 15%; height: 20%;  ">
             <h3 class="regalo" style="font-size: 2.5em;">No. Tarjeta: 4152 3143 1359 9592</h3>
@@ -229,6 +229,25 @@
             <h3 class="regalo" style="font-size: 2.5em;">Mesa de Regalos: <a href="https://mesaderegalos.liverpool.com.mx/milistaderegalos/51751834" target="_blank">51751834</a> </h3>
           </div>   
             <br><br>
+          </div>
+        </div>
+
+
+        <div class="row fondo_lugares" style="text-align: center;">
+          
+
+            <br><br><br><br>
+
+            <div class="col">
+            <br><br>
+            <p style="font-family: fontgistesy; font-size: 6em; letter-spacing: 3.5px;">Confirma tu asistencia</p>
+            <h2 style="font-size: 2em;" class='text-center'>Por favor, ingresa tu nombre y confirma tu asistencia</h2>
+            <br>
+            <input id="nombre" class="form-control" style="width: 45%; margin-left: 27%; ">
+                
+            <br>
+            <button id="asistencia" type="button" class="btn btn-maps btn-sm" style="font-size: 2em;"> <i  class="fa fa-check"></i> Confirmar asistencia</button>
+            <br><br><br>  
           </div>
         </div>
 
@@ -268,6 +287,7 @@
 
         
 
+
         
 
         
@@ -285,9 +305,9 @@
 
         <script>
 
-         window.onload = function () {
+        /* window.onload = function () {
     document.body.style.transform = "scale(1.05)";
-};
+};*/
             // Set the date we're counting down to
             var countDownDate = new Date("Oct 17, 2025 16:00:00").getTime();
 
@@ -321,6 +341,19 @@
                 document.getElementById("pSegundos").innerHTML = "0";
               }
             }, 1000);
+
+
+            $(document).ready(function() {
+              // Cuando se hace click en el botón con id "asistencia"
+              $("#asistencia").click(function() {
+                // Obtiene el valor del input con id "miInput"
+                var valor = $("#nombre").val();
+                var mensaje = "Hola, mi nombre es: "+valor+" y confirmo mi asistencia a la boda de Karen y Humberto.";
+                var url= "https://wa.me/+526621198529?text="+mensaje
+                window.open(url, "_blank");
+                $("#nombre").val("");
+              });
+            });
         </script>
     </body>
 </html>
