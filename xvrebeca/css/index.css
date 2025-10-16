@@ -62,7 +62,7 @@ html, body {
     background-color: black;
     background-size:cover;
     background-position: center;
-    height: 100vh;
+   /* height: 100vh;*/
     position: relative;
     width: 100%;
     overflow-x: hidden;
