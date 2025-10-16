@@ -58,7 +58,7 @@ html, body {
   overflow-x: hidden;
 }
 .h-img-parent {
-    /*background-image: url("../img/KHPortaada.jpeg");*/
+    background-image: url("../img/Portada.jpeg");
     background-color: black;
     background-size:cover;
     background-position: center;
@@ -80,7 +80,7 @@ html, body {
     position: absolute;
     left: 0; right: 0;
     top: 0; bottom: 0;
-    background: rgba(0,0,0,.5);
+    background: rgba(0,0,0,.4);
 }
 
 
